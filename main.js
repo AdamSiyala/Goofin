@@ -1,9 +1,11 @@
+// Targets all the things we need to target
 const myForm = document.querySelector('#my-form');
 const nameInput = document.querySelector('#name');
 const email = document.querySelector('#email');
 const msg = document.querySelector('.msg');
 const user = document.querySelector('#users');
 
+//when we submit, this will run the onSubmit function.
 myForm.addEventListener('submit', onSubmit);
 
 function onSubmit(e) {
